@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day selection</title>
+  <link rel="stylesheet" href="./1.css">
+</head>
+<body>
+<div id="app">
+    <div id="taskForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" required><br><br>
+        <label for="description">Description:</label>
+        <textarea id="description"></textarea>
+        <button onclick="addTask()">save</button>
+    </div>
+    <div id="taskList">
+    </div>
+</div>
+<br><br>
+<div id="app1">
+    <button><span>SUN</span></button>
+    <button style="background-color:grey;"><span>MON</span></button>
+    <button><span>TUE</span></button>
+    <button><span>WED</span></button>
+    <button><span>THU</span></button>
+    <button><span>FRI</span></button>
+    <button><span>SAT</span></button>
+</div><br>
+<div id="app2">
+    <h3>The Title 1</h3>
+    <p>Sample description data</p>
+    <button onclick="addTask()">DELETE</button>
+</div><br>
+<div id="app3">
+    <h3>The Title 2</h3>
+    <p>Sample description data</p>
+    <button onclick="addTask()">DELETE</button>
+</div>                              
+<script src="./1.js"></script>
+</body>
+</html>
